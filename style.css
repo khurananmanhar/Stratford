@@ -11,6 +11,7 @@ p {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 header{
     background: url("https://i.ibb.co/9WQQWNP/Stratford-Accounting.png") no-repeat center center fixed;
@@ -74,5 +75,11 @@ button:hover{
 @media screen and (max-width: 1024px){
 .split{
     column-count: 1;
+}
+.title h1{
+    font-size: 45px;
+}
+.title h3{
+    font-size: 15px;
 }
 }
