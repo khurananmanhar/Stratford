@@ -100,7 +100,7 @@ ol{
     font-weight: 700;
     margin-right: 15px;
 }
-ol h3{
+ol li h3{
     color: white;
     font-weight: 600 ;
     font-size: 26px;
