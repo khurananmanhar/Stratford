@@ -44,7 +44,8 @@ img{
     height: auto;
 }
 .split{
-column-count: 2;
+    column-count: 2;
+    overflow: hidden;
 }
 .container{
     padding: 15% 10%;
@@ -58,6 +59,11 @@ h2{
     font-size: 45px;
     font-weight: bold;
     padding-bottom: 1rem;
+}
+h3{
+    font-size: 22px;
+    color:#312E2D ;
+    font-weight: 700;
 }
 p{
     font-size: 18px;
@@ -98,25 +104,17 @@ ol{
     font-size: 42px;
     color:#312E2D ;
     font-weight: 700;
-    margin-right: 15px;
 }
 ol li h3{
     color: white;
     font-weight: 600 ;
     font-size: 26px;
-    margin-bottom:  15px;
 }
 .lists img{
-   width: 90%;
-   height: auto;
+    width: 99%;
 }
-
-.center{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-left: 25px;
+.hidden{
+    color: #141414;
 }
 @media screen and (max-width: 1024px){
 .split{
