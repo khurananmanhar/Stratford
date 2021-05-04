@@ -45,7 +45,6 @@ img{
 }
 .split{
     column-count: 2;
-    overflow: hidden;
 }
 .container{
     padding: 15% 10%;
