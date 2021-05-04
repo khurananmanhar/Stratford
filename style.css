@@ -137,6 +137,9 @@ h2{
 .c-b{
     color: white;
 }
+.hidden{
+    display: none;
+}
 }
 @media screen and (max-width: 360px){
     .title h1{
